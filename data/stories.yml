@@ -1,0 +1,210 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: creator information
+  steps:
+  - intent: creator
+  - action: utter_creator
+
+- story: name information
+  steps:
+  - intent: name
+  - action: utter_name
+
+- story: college hours
+  steps:
+  - intent: hours
+  - action: utter_hours
+
+- story: contact number
+  steps:
+  - intent: number
+  - action: utter_number
+
+- story: courses offered
+  steps:
+  - intent: course
+  - action: utter_course
+
+- story: fee information
+  steps:
+  - intent: fees
+  - action: utter_fees
+
+- story: college location
+  steps:
+  - intent: location
+  - action: utter_location
+
+- story: hostel information
+  steps:
+  - intent: hostel
+  - action: utter_hostel
+
+- story: event information
+  steps:
+  - intent: event
+  - action: utter_event
+
+- story: document requirements
+  steps:
+  - intent: document
+  - action: utter_document
+
+- story: college floors
+  steps:
+  - intent: floors
+  - action: utter_floors
+
+- story: syllabus information
+  steps:
+  - intent: syllabus
+  - action: utter_syllabus
+
+- story: library information
+  steps:
+  - intent: library
+  - action: utter_library
+
+- story: infrastructure information
+  steps:
+  - intent: infrastructure
+  - action: utter_infrastructure
+
+- story: canteen information
+  steps:
+  - intent: canteen
+  - action: utter_canteen
+
+- story: menu information
+  steps:
+  - intent: menu
+  - action: utter_menu
+
+- story: placement information
+  steps:
+  - intent: placement
+  - action: utter_placement
+
+- story: hod information
+  steps:
+  - intent: ithod
+  - action: utter_ithod
+
+- story: computer hod information
+  steps:
+  - intent: computerhod
+  - action: utter_computerhod
+
+- story: extc hod information
+  steps:
+  - intent: extchod
+  - action: utter_extchod
+
+- story: principal information
+  steps:
+  - intent: principal
+  - action: utter_principal
+
+- story: semester information
+  steps:
+  - intent: sem
+  - action: utter_sem
+
+- story: admission process
+  steps:
+  - intent: admission
+  - action: utter_admission
+
+- story: scholarship information
+  steps:
+  - intent: scholarship
+  - action: utter_scholarship
+
+- story: facilities information
+  steps:
+  - intent: facilities
+  - action: utter_facilities
+
+- story: college intake information
+  steps:
+  - intent: college_intake
+  - action: utter_college_intake
+
+- story: uniform information
+  steps:
+  - intent: uniform
+  - action: utter_uniform
+
+- story: committee information
+  steps:
+  - intent: committee
+  - action: utter_committee
+
+- story: random query
+  steps:
+  - intent: random
+  - action: utter_random
+
+- story: swear query
+  steps:
+  - intent: swear
+  - action: utter_swear
+
+- story: vacation information
+  steps:
+  - intent: vacation
+  - action: utter_vacation
+
+- story: sports information
+  steps:
+  - intent: sports
+  - action: utter_sports
+
+- story: salutation response
+  steps:
+  - intent: salutation
+  - action: utter_salutation
+
+- story: task information
+  steps:
+  - intent: task
+  - action: utter_task
+
+- story: ragging information
+  steps:
+  - intent: ragging
+  - action: utter_ragging
+
+- story: hod information
+  steps:
+  - intent: hod
+  - action: utter_hod

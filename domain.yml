@@ -1,0 +1,184 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - creator
+  - name
+  - hours
+  - number
+  - course
+  - fees
+  - location
+  - hostel
+  - event
+  - document
+  - floors
+  - syllabus
+  - library
+  - infrastructure
+  - canteen
+  - menu
+  - placement
+  - ithod
+  - computerhod
+  - extchod
+  - principal
+  - sem
+  - admission
+  - scholarship
+  - facilities
+  - college_intake
+  - uniform
+  - committee
+  - random
+  - swear
+  - vacation
+  - sports
+  - salutation
+  - task
+  - ragging
+  - hod
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_creator:
+  - text: "College student from ENSAO"
+
+  utter_name:
+  - text: "You can call me Mind Reader."
+  - text: "I'm Mind Reader"
+  - text: "I am a Chatbot."
+  - text: "I am your helper"
+
+  utter_hours:
+  - text: "College is open 8 am-5 pm Monday-Saturday!"
+
+  utter_number:
+  - text: "You can contact at: NUMBER"
+
+  utter_course:
+  - text: "Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering."
+
+  utter_fees:
+  - text: "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+
+  utter_location:
+  - text: "<a target=\"_blank\" href=\"ADD YOU GOOGLE MAP LINK HERE\"> here</a>"
+
+  utter_hostel:
+  - text: "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+
+  utter_event:
+  - text: "For event detail visit <a target=\"_blank\" href=\"ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE\"> here</a>"
+
+  utter_document:
+  - text: "To know more about document required visit <a target=\"_blank\" href=\"ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR UNIVERSITY WEBSITE\"> here</a>"
+
+  utter_floors:
+  - text: "My College has a total of 2 floors "
+
+  utter_syllabus:
+  - text: "Timetable provides directly to the students OR To know about the syllabus visit <a target=\"_blank\" href=\"TIMETABLE LINK\"> here</a>"
+
+  utter_library:
+  - text: "There is one huge and spacious library. Timings are 8 am to 6 pm and for more visit <a target=\"blank\" href=\"ADD LIBRARY DETAIL LINK\">here</a>"
+
+  utter_infrastructure:
+  - text: "Our University has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection"
+
+  utter_canteen:
+  - text: "Our university has a canteen with a variety of food available"
+
+  utter_menu:
+  - text: "We serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali, and many more on the menu"
+
+  utter_placement:
+  - text: "To know about placement visit <a target=\"_blank\" href=\"PLACEMENT INFORMATION LINK FROM YOUR UNIVERSITY WEBSITE IF THEY HAVE\">here</a>"
+
+  utter_ithod:
+  - text: "All engineering departments have only one hod XYZ who is available at (Place name)"
+
+  utter_computerhod:
+  - text: "All engineering departments have only one hod XYZ who is available at (PLACE NAME)"
+
+  utter_extchod:
+  - text: "Different school-wise hods are different. So be more clear with your school or department"
+
+  utter_principal:
+  - text: "XYZ is the college principal, and if you need any help, then call your branch hod first. That is more appropriate"
+
+  utter_sem:
+  - text: "Here is the Academic Calendar <a target=\"_blank\" href=\"YOUR ACADEMIC CALENDER\">website</a>"
+
+  utter_admission:
+  - text: "Application can also be submitted online through the University's <a target=\"_blank\" href=\"LINK OF ADMISSION DOCUMENT\">website</a>"
+
+  utter_scholarship:
+  - text: "Many government scholarships are supported by our university. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+
+  utter_facilities:
+  - text: "Our university's Engineering department provides a fully AC Lab with an internet connection, smart classroom, Auditorium, library, canteen"
+
+  utter_college_intake:
+  - text: "For IT, Computer, and extc 60 per branch and seat may differ for different departments."
+
+  utter_uniform:
+  - text: "ENTER YOUR OWN UNIVERSITY UNIFORM CIRCULER"
+
+  utter_committee:
+  - text: "For various committees in college, contact this number: ADD NUMBER"
+
+  utter_random:
+  - text: "I am not programmed for this, please ask an appropriate query"
+
+  utter_swear:
+  - text: "Please use appropriate language"
+  - text: "Maintaining decency would be appreciated"
+
+  utter_vacation:
+  - text: "Academic calendar is given to you by your class coordinators after you join your respective classes"
+
+  utter_sports:
+  - text: "Our university encourages all-round development of students and hence provides sports facilities on campus. For more details visit<a target=\"_blank\" href=\"/\">here</a>"
+
+  utter_salutation:
+  - text: "I am glad I helped you"
+  - text: "Welcome, anything else I can assist you with?"
+
+  utter_task:
+  - text: "I can answer low-intermediate questions regarding college"
+  - text: "You can ask me questions regarding college, and I will try to answer them"
+
+  utter_ragging:
+  - text: "We are proud to tell you that our college provides a ragging-free environment, and we have strict rules against ragging"
+
+  utter_hod:
+  - text: "HODs differ for each branch; please be more specific like: (HOD it)"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
